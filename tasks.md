@@ -1,8 +1,9 @@
-- [ ] Criar as rotas
-    - [ ] home (/)
-    - [ ] notFound
-    - [ ] tasks (/tasks)
-    - [ ] tasks/[id] (/tasks/[id]) Talvez aqui tenha que ver sobre rotas dinamicas [Sujeito programador](https://www.youtube.com/watch?si=wLwioY5_qSGv9hpO&v=e6FigV2fLC8&feature=youtu.be)
+- [x] Criar as rotas
+    - [x] home (/)
+    - [x] notFound
+    - [x] tasks (/tasks)
+    - [x] tasks/[id] (/tasks/[id])
+- [ ] Testar para ver se cada rota funcionou
 <br/>
 
 - [ ] Criar um client component de botão
