@@ -3,15 +3,17 @@
     - [x] notFound
     - [x] tasks (/tasks)
     - [x] tasks/[id] (/tasks/[id])
-- [ ] Testar para ver se cada rota funcionou
+- [x] Testar para ver se cada rota funcionou
 <br/>
 
-- [ ] Criar um client component de botão
-    - [ ] O nome do componente pode ser Button
-    - [ ] Terá a opção de props de:
-        - [ ] Nome (Opcional)
-        - [ ] Icon (Opcional)
-        - [ ] Color
+- [x] Criar um client component de botão
+    - [x] O nome do componente pode ser Button
+    - [x] Terá a opção de props de:
+        - [x] Label 
+        - [x] Icon (Opcional)
+        - [x] ColorIcon (Opcional)
+        - [x] ColorBackground (Opcional)
+    - [ ] Criar testes para esse componente
 <br/>
 
 - [ ] Criar um client component de input
@@ -19,12 +21,16 @@
     - [ ] Ver a estilização
     - [ ] Terá a opção de props de:
         - [ ] Placeholder (opcional)
+    - [ ] Criar testes para esse componente
+
 <br/>
 
 - [ ] Criar um client component de Formulario de pesquisa
     - [ ] O nome do componente pode ser searchTaskComponent
     - [ ] Terá um InputComponent
     - [ ] Component Button passando a label Pesquisar com a cor amarela
+    - [ ] Criar testes para esse componente
+
 <br/>
 
 - [ ] Criar um client component de Modal de add task
@@ -32,6 +38,8 @@
     - [ ] Terá um InputComponent de Title
     - [ ] Terá um InputComponent de Description
     - [ ] Component Button passando a label Pesquisar com a cor amarela
+    - [ ] Criar testes para esse componente
+
 <br/>
 
 - [ ] Na tela de home
@@ -39,6 +47,8 @@
     - [ ] Button componente com label Visualizar Tasks e cor azul
         - [ ] Ao clicar vai para a tela de listagem de tasks usando o Link do next 
     - [ ] Inserir Metada com título e descrição específicos
+    - [ ] Criar testes para esse componente
+
 <br/>
 
 - [ ] Na tela de listagem de tasks
@@ -50,7 +60,10 @@
     - [ ] Lista todas as tasks usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/)
         - [ ] Tenho que ver uma estilização para cada item
     - [ ] Ao clicar em um item ele vai para a tela de especificar a task com o Link do next
+    - [ ] Criar testes para esse componente
+
 <br/>
 
 - [ ] Na tela de especificar uma task
     - [ ] Detalhar a task de acordo com o id selecionado usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/) ver a estilização
+    - [ ] Criar testes para esse componente
