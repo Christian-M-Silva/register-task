@@ -34,7 +34,7 @@
     - [x] Controlar o tamanho dos icones no button
     - [x] Controlar as bordas do button
     - [x] Controlar as bordas do input
-    - [ ] Criar testes para esse componente
+    - [x] Criar testes para esse componente
 
 <br/>
 
