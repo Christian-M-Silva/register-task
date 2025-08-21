@@ -61,7 +61,7 @@
     - [x] Button componente com label Visualizar Tasks e cor azul
         - [x] Ao clicar vai para a tela de listagem de tasks usando o Link do next 
     - [x] Inserir Metada com título e descrição específicos
-    - [ ] Criar testes no cypress para esse fluxo
+    - [x] Criar testes no cypress para esse fluxo
 
 <br/>
 
