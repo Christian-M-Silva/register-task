@@ -49,12 +49,19 @@
 
 <br/>
 
-- [ ] Na tela de home
-    - [ ] Mensagem de bem-vindo no meio
-    - [ ] Button componente com label Visualizar Tasks e cor azul
-        - [ ] Ao clicar vai para a tela de listagem de tasks usando o Link do next 
-    - [ ] Inserir Metada com título e descrição específicos
-    - [ ] Criar testes para esse componente
+- [x] Criar um componente de redirecionamento
+    - [x] Nome: Redirect
+    - [x] Props:
+        - [x] label
+        - [x] hrf
+<br/>
+
+- [x] Na tela de home
+    - [x] Mensagem de bem-vindo no meio
+    - [x] Button componente com label Visualizar Tasks e cor azul
+        - [x] Ao clicar vai para a tela de listagem de tasks usando o Link do next 
+    - [x] Inserir Metada com título e descrição específicos
+    - [ ] Criar testes no cypress para esse fluxo
 
 <br/>
 
@@ -67,10 +74,10 @@
     - [ ] Lista todas as tasks usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/)
         - [ ] Tenho que ver uma estilização para cada item
     - [ ] Ao clicar em um item ele vai para a tela de especificar a task com o Link do next
-    - [ ] Criar testes para esse componente
+    - [ ] Criar testes no cypress para esse fluxo
 
 <br/>
 
 - [ ] Na tela de especificar uma task
     - [ ] Detalhar a task de acordo com o id selecionado usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/) ver a estilização
-    - [ ] Criar testes para esse componente
+    - [ ] Criar testes no cypress para esse fluxo

@@ -17,6 +17,11 @@ export interface InputProps {
   value: string;
   change: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
+
+export interface RedirectProps {
+  label: string
+  hrf: string
+}
 // #endregion
 
 // #region Types

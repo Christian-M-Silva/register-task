@@ -8,8 +8,8 @@ jest.mock("lucide-react/dynamic", () => ({
 
 describe('Button component', () => {
   it('should render all props', () => {
-   render(<Button label='Test' colorBackground='blue' colorIcon='blue' icon='camera'/>)
+    render(<Button label='Test' colorBackground='blue' colorIcon='blue' icon='camera' action={() => { console.log("Teste") }} />)
 
-   screen.getByText('Test')
+    screen.getByText('Test')
   })
 })

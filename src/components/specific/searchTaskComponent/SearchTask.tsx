@@ -1,5 +1,3 @@
-'use client'
-
 import { Button } from "@/components/ui/atoms/buttonComponent/Button"
 import { Input } from "@/components/ui/atoms/inputComponent/Input"
 

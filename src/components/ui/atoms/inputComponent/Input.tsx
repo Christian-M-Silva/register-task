@@ -1,4 +1,3 @@
-'use client'
 import { InputProps } from "@/types";
 
 export function Input({ placeholder, borders, change, value }: InputProps) {

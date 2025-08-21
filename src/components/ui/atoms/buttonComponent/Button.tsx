@@ -1,4 +1,3 @@
-'use client'
 import { DynamicIcon } from 'lucide-react/dynamic';
 import { ButtonProps, colorMap } from "@/types";
 
