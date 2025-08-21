@@ -6,13 +6,16 @@ export interface ButtonProps {
   colorBackground?: colors;
   icon?: IconName;
   colorIcon?: colors;
-  sizeIcon?: number
-  borders?: borders
+  sizeIcon?: number;
+  borders?: borders;
+  action: () => void;
 }
 
 export interface InputProps {
-  borders?: borders
-  placeholder: string
+  borders?: borders;
+  placeholder: string;
+  value: string;
+  change: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 // #endregion
 
@@ -24,5 +27,11 @@ export const colorMap: Record<colors, string> = {
   yellow: "bg-yellow-600",
 };
 
-export type borders = "rounded-2xl" | "rounded-lg" | "rounded-l-2xl" | "rounded-r-2xl" | "rounded-r-lg" | "rounded-l-lg"
+export type borders =
+  | "rounded-2xl"
+  | "rounded-lg"
+  | "rounded-l-2xl"
+  | "rounded-r-2xl"
+  | "rounded-r-lg"
+  | "rounded-l-lg";
 // #endregion

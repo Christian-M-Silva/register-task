@@ -38,11 +38,13 @@
 
 <br/>
 
-- [ ] Criar um client component de Modal de add task
-    - [ ] O nome do componente pode ser modalAddTaskComponent
-    - [ ] Terá um InputComponent de Title
-    - [ ] Terá um InputComponent de Description
-    - [ ] Component Button passando a label Pesquisar com a cor amarela
+- [x] Criar um client component de Modal de add task
+    - [x] O nome do componente pode ser modalAddTaskComponent
+    - [x] Terá um botão para abrir o modal
+    - [x] Terá um InputComponent de Title
+    - [x] Terá um InputComponent de Description
+    - [x] Component Button passando a label adicionar
+    - [x] Component Button passando a label cancelar
     - [ ] Criar testes para esse componente
 
 <br/>
