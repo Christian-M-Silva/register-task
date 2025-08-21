@@ -45,7 +45,7 @@
     - [x] Terá um InputComponent de Description
     - [x] Component Button passando a label adicionar
     - [x] Component Button passando a label cancelar
-    - [ ] Criar testes para esse componente
+    - [x] Criar testes para esse componente
 
 <br/>
 
