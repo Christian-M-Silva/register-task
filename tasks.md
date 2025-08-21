@@ -13,15 +13,15 @@
         - [x] Icon (Opcional)
         - [x] ColorIcon (Opcional)
         - [x] ColorBackground (Opcional)
-    - [ ] Criar testes para esse componente
+    - [x] Criar testes para esse componente
 <br/>
 
-- [ ] Criar um client component de input
-    - [ ] O nome do componente pode ser InputComponent
-    - [ ] Ver a estilização
-    - [ ] Terá a opção de props de:
-        - [ ] Placeholder (opcional)
-    - [ ] Criar testes para esse componente
+- [x] Criar um client component de input
+    - [x] O nome do componente pode ser Input
+    - [x] Ver a estilização
+    - [x] Terá a opção de props de:
+        - [x] Placeholder (opcional)
+    - [x] Criar testes para esse componente
 
 <br/>
 

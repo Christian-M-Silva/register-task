@@ -7,6 +7,10 @@ export interface ButtonProps {
   colorBackground?: colors;
   colorIcon?: colors;
 }
+
+export interface InputProps {
+  placeholder: string
+}
 // #endregion
 
 // #region Types
