@@ -65,10 +65,11 @@
 
 <br/>
 
-- [ ] Na tela de listagem de tasks
-    - [ ] Inserir Metada com título e descrição específicos
-    - [ ] Usar o componente searchTaskComponent
-        - [ ] Ao clicar no botão ele vai para  tela de especificar task com o id escolhido com o Link do next
+- [x] Na tela de listagem de tasks
+    - [x] Inserir Metada com título e descrição específicos
+    - [ ] No componente AddTaskAction 
+        - [ ] Usar o componente searchTaskComponent
+            - [ ] Ao clicar no botão ele vai para  tela de especificar task com o id escolhido com o Link do next
     - [ ] Component Button com o icone de add que abre o modalAddTaskComponent
         - [ ] Ao clicar no botão de add eu chamo uma função server que chama uma requisição de add os dados que estão no input 
     - [ ] Lista todas as tasks usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/)
