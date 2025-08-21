@@ -25,10 +25,15 @@
 
 <br/>
 
-- [ ] Criar um client component de Formulario de pesquisa
-    - [ ] O nome do componente pode ser searchTaskComponent
-    - [ ] Terá um InputComponent
-    - [ ] Component Button passando a label Pesquisar com a cor amarela
+- [x] Criar um client component de Formulario de pesquisa
+    - [x] O nome do componente pode ser searchTask
+    - [x] Terá um InputComponent
+    - [x] Component Button passando a label Pesquisar com a cor amarela
+    - [x] Configurar o componente do input para permitir que o label caiba
+    - [x] O label em pesquisar tem que ficar centralizado
+    - [x] Controlar o tamanho dos icones no button
+    - [x] Controlar as bordas do button
+    - [x] Controlar as bordas do input
     - [ ] Criar testes para esse componente
 
 <br/>
