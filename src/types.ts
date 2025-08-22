@@ -19,13 +19,17 @@ export interface InputProps {
 }
 
 export interface RedirectProps {
-  label: string
-  hrf: string
+  label: string;
+  hrf: string;
 }
 
 export interface CardTaskProps {
-  title: string
-  isFinish: boolean
+  title: string;
+  isFinish: boolean;
+  id: number;
+}
+export interface SearchTaskProps {
+  search: (id:string) => void;
 }
 // #endregion
 
