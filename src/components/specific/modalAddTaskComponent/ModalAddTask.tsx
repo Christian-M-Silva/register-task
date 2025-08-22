@@ -1,3 +1,4 @@
+'use client'
 import { Button } from "@/components/ui/atoms/buttonComponent/Button";
 import { Input } from "@/components/ui/atoms/inputComponent/Input";
 import { useState } from "react";
@@ -8,7 +9,18 @@ export function ModalAddTask() {
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
 
-    const handleSubmit = () => {
+    function handleSubmit() {
+        fetch('https://jsonplaceholder.typicode.com/todos', {
+            method: 'POST',
+            body: JSON.stringify({
+                title: title,
+                body: description,
+                userId: 1,
+            }),
+            headers: {
+                'Content-type': 'application/json; charset=UTF-8',
+            },
+        })
         console.log("Input 1:", title);
         console.log("Input 2:", description);
         closeModal()

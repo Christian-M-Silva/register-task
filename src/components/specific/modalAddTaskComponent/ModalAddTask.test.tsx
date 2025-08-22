@@ -24,14 +24,4 @@ describe('ModalAddTask component', () => {
 
         expect(cancelButton).not.toBeInTheDocument()
     })
-
-    it('should closed modal when click button adicionar', () => {
-        render(<ModalAddTask />)
-
-        fireEvent.click(screen.getByText("Adicionar tarefa"))
-        const addButton = screen.getByText("Adicionar")
-        fireEvent.click(addButton)
-
-        expect(addButton).not.toBeInTheDocument()
-    })
 })

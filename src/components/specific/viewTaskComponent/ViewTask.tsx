@@ -1,8 +1,8 @@
 'use client'
 import { useEffect, useState } from "react"
-import { Button } from "@/components/ui/atoms/buttonComponent/Button"
 import { CardTask } from "../cardTasks/CardTasks"
 import { SearchTask } from "../searchTaskComponent/SearchTask"
+import { ModalAddTask } from "../modalAddTaskComponent/ModalAddTask"
 
 export function ViewTask() {
     const [tasks, setTasks] = useState<any[]>([])
@@ -41,13 +41,7 @@ export function ViewTask() {
         <div className="flex flex-col items-center gap-5 mt-2.5">
             <div className="flex gap-5">
                 <SearchTask search={(id) => renderTask(id)}/>
-                <Button
-                    borders="rounded-2xl"
-                    icon="plus"
-                    action={() => {
-                        console.log("Adicionar nova tarefa")
-                    }}
-                />
+                <ModalAddTask/>
             </div>
 
             {tasks.map((el) => (

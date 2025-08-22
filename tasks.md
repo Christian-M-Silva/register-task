@@ -76,14 +76,6 @@
         - [x] No componente ViewTasks eu coloco a chamada para a função renderTasks
         - [x] Usar o componente searchTaskComponent
             - [x] Ao clicar no botão ele chama a função renderTasks passando o id digitado
-        - [ ] Component Button com o icone de add que abre o modalAddTaskComponent
-            - [ ] Remover o imput de descrição do modalAddTaskComponent
-            - [ ] Ao clicar no botão de add eu chamo uma função server que chama uma requisição de add os dados que estão no input
-    - [ ] Ao clicar em um item ele vai para a tela de especificar a task com o Link do next
-    - [ ] Criar testes no cypress para esse fluxo
-
-<br/>
-
-- [ ] Na tela de especificar uma task
-    - [ ] Detalhar a task de acordo com o id selecionado usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/) ver a estilização
-    - [ ] Criar testes no cypress para esse fluxo
+        - [x] Component Button com o icone de add que abre o modalAddTaskComponent
+            - [x] Ao clicar no botão de add eu chamo uma função que chama uma requisição de add os dados que estão no input
+    - [x] Ao clicar em um item ele vai para a tela de especificar a task com o Link do next
