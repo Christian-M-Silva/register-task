@@ -22,6 +22,11 @@ export interface RedirectProps {
   label: string
   hrf: string
 }
+
+export interface CardTaskProps {
+  title: string
+  isFinish: boolean
+}
 // #endregion
 
 // #region Types

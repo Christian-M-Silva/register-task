@@ -67,13 +67,13 @@
 
 - [x] Na tela de listagem de tasks
     - [x] Inserir Metada com título e descrição específicos
+    - [x] Lista todas as tasks usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/)
+        - [x] Tenho que ver uma estilização para cada item
+    - [ ] Usar o componente searchTaskComponent
+        - [ ] Ao clicar no botão ele filtra pelo id e mostra na tela
     - [ ] No componente AddTaskAction 
-        - [ ] Usar o componente searchTaskComponent
-            - [ ] Ao clicar no botão ele vai para  tela de especificar task com o id escolhido com o Link do next
-    - [ ] Component Button com o icone de add que abre o modalAddTaskComponent
-        - [ ] Ao clicar no botão de add eu chamo uma função server que chama uma requisição de add os dados que estão no input 
-    - [ ] Lista todas as tasks usando [Jsonplaceholder](https://jsonplaceholder.typicode.com/)
-        - [ ] Tenho que ver uma estilização para cada item
+        - [ ] Component Button com o icone de add que abre o modalAddTaskComponent
+            - [ ] Ao clicar no botão de add eu chamo uma função server que chama uma requisição de add os dados que estão no input 
     - [ ] Ao clicar em um item ele vai para a tela de especificar a task com o Link do next
     - [ ] Criar testes no cypress para esse fluxo
 
